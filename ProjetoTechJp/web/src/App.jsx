@@ -1,13 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './assets/components/Header'
+import Header from './assets/components/Header.jsx'
+import Menu from './assets/components/menu'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Header/>
+    <> 
+      <div>
+        <Header /> 
+        <Menu/>
+      </div>
+       
+    
+
     </>
   )
 }

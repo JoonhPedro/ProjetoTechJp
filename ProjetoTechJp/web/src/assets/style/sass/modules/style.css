@@ -1,5 +1,8 @@
+@charset "UTF-8";
 body {
   background-color: #262626;
+  font-family: linden Hill;
+  font-weight: 200;
 }
 
 .header {
@@ -36,4 +39,22 @@ body {
 .carrinho {
   display: flex;
   gap: 5px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.Navegação {
+  background-color: #1E66BA;
+  margin: auto;
+  width: 81%;
+  height: 37px;
+  border-radius: 5px;
+  font-family: linden Hill;
+}
+.Navegação .lista {
+  display: flex;
+  line-height: 40px;
+  color: white;
+}
+.Navegação .lista a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
