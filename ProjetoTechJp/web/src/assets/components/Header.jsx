@@ -11,6 +11,12 @@ const Header = () => {
 
                 <div className="Barra-Pesquisa">
                     <div className="Barra">
+                        <input type="text" 
+                         name="search"
+                        className="Barra-de-pesquisa"
+                         maxLength={20}
+                         placeholder="Procure por produtos"
+                        />
                         <div className="Search">
                             Search
                         </div>

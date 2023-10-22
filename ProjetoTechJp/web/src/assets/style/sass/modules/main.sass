@@ -12,19 +12,25 @@ body
 .Barra
     width: 450px
     height: 40px
-    background: white
+    background: #ffffffc7
     border-radius: 10px
-    
+    display: flex
+    .Barra-de-pesquisa
+        width: 400px
+        background: #ffffff00
+        border: none
+        border-radius: 10px
+        padding: 20px
+        &:focus
+        outline: none
+        
     .Search
         text-align: center
         line-height: 2.4 
         width: 80px
         height: 40px
         background: #1E66BA
-        border-radius: 0px 5px 0px   20px
-        position: relative
-        left: 370px
-  
+        border-radius: 0px 5px 0px   20px     
 .carrinho
     display: flex
     gap: 5px  

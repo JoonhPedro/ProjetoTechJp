@@ -1,0 +1,39 @@
+body {
+  background-color: #262626;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.Barra {
+  width: 450px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.7803921569);
+  border-radius: 10px;
+  display: flex;
+}
+.Barra .Barra-de-pesquisa {
+  width: 400px;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  outline: none;
+}
+.Barra .Search {
+  text-align: center;
+  line-height: 2.4;
+  width: 80px;
+  height: 40px;
+  background: #1E66BA;
+  border-radius: 0px 5px 0px 20px;
+}
+
+.carrinho {
+  display: flex;
+  gap: 5px;
+}/*# sourceMappingURL=main.css.map */
