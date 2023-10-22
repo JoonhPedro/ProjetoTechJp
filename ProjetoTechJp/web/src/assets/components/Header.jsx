@@ -17,6 +17,12 @@ const Header = () => {
                          maxLength={20}
                          placeholder="Procure por produtos"
                         />
+                        <div className="all-categories">
+                            <div className="linha"></div>
+                           
+                            All categories 
+                            <img src="./src/assets/image/seta.svg" alt="" />
+                        </div>
                         <div className="Search">
                             Search
                         </div>

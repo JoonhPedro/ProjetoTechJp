@@ -27,13 +27,37 @@ body {
   padding: 20px;
   outline: none;
 }
+.Barra .all-categories {
+  width: 150px;
+  height: 40px;
+  line-height: 2.7;
+  position: relative;
+  right: 30px;
+  color: black;
+}
+.Barra .all-categories img {
+  height: 5px;
+  position: relative;
+  left: 10px;
+  bottom: 1px;
+  cursor: pointer;
+}
+.Barra .all-categories .linha {
+  width: 1.2px;
+  height: 20px;
+  background: #1E66BA;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
 .Barra .Search {
   text-align: center;
-  line-height: 2.4;
-  width: 80px;
+  line-height: 2.5;
+  width: 120px;
   height: 40px;
   background: #1E66BA;
   border-radius: 0px 5px 0px 20px;
+  cursor: pointer;
 }
 
 .carrinho {
