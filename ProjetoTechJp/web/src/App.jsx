@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './assets/components/Header.jsx'
+import HeaderMenu from './assets/components/Headermenu'
 import Menu from './assets/components/menu'
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
     <> 
       <div>
         <Header /> 
-        <Menu/>
-      </div>
+        <HeaderMenu/>
+      </div>  
+      <Menu/>
        
     
 
