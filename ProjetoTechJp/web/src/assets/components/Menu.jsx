@@ -12,7 +12,6 @@ const Menu = () => {
                 <ul><a href="">Shop</a></ul>
                 <ul><a href="">About Us</a></ul>
                 <ul><a href="">Contact Us</a></ul>
-
               </ol>
             </div>  
         </>
