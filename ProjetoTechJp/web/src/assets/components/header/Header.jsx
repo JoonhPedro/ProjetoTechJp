@@ -1,4 +1,3 @@
-import React from "react"
 
 const Header = () => {
 
@@ -21,7 +20,7 @@ const Header = () => {
                             <div className="linha"></div>
 
                             All Categories
-                            <img src="./src/assets/image/seta.svg" alt="" />
+                            <img src="./src/assets/image/header/seta.svg" alt="" />
                         </div>
                         <div className="Search">
                             Search
@@ -35,7 +34,7 @@ const Header = () => {
 
                 <div className="carrinho">
 
-                    <img src="./src/assets/image/carrinho.svg" />
+                    <img src="./src/assets/image/header/carrinho.svg" />
                     <h3>Carrinho</h3>
 
                 </div>

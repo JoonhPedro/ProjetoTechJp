@@ -1,11 +1,20 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './assets/components/Header.jsx'
-import HeaderMenu from './assets/components/Headermenu'
-import Menu from './assets/components/menu'
+
+
+//Style
+
+// Header 
+import Header from './assets/components/header/Header.jsx'
+import HeaderMenu from './assets/components/header/HeaderMenu.jsx'
+import Slidebar from './assets/components/slider/Slidebar.jsx'
+
+// previ
+
+//pagamentos
+
+import Pags from './assets/components/pagamentos/Pags.jsx'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <> 
@@ -13,7 +22,14 @@ function App() {
         <Header /> 
         <HeaderMenu/>
       </div>  
-      <Menu/>
+      
+      <div className="containerslide">
+        <Slidebar/>
+      </div>
+
+      <div>
+      <Pags />
+      </div>
        
     
 
